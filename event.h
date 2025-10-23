@@ -5,7 +5,7 @@
         #include <stdbool.h>
 
         #define ID_LEN 64
-        #define DATE_LEN 11   /* "YYYY-MM-DD" + '\0' */
+        #define DATE_LEN 11   
         #define VEHICLE_LEN 128
         #define MISSION_LEN 256
         #define SITE_LEN 256
