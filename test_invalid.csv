@@ -1,0 +1,7 @@
+\
+        id,date,vehicle,mission,site,status
+        X001,2025-06-01,Falcon 9,Starlink Batch X,CCSFS SLC-40,Success
+        X002,2025-06-xx,Falcon 9,Starlink Batch Y,CCSFS SLC-40,Success
+        X003,2025-07-10,,New Satellite Deployer,WSLC LC-201,Scheduled
+        X004,2025-07-20,Electron,Small Payload Orbit,Mahia LC-1B,
+        X005,06-30-2025,Starship,Mars Cargo Demo,Boca Chica Orbital Pad,Delayed
