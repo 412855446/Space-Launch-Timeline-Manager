@@ -25,21 +25,17 @@
             struct Node *next;
         } Node;
 
-        /* List management */
         Node *create_node(const Event *ev);
         void free_list(Node *head);
 
-        /* Operations */
-        void insert_sorted(Node **head, const Event *ev); /* by date asc, tie-break by id */
+        void insert_sorted(Node **head, const Event *ev); 
         int delete_by_id(Node **head, const char *id);
         Node *find_by_id(Node *head, const char *id);
 
-        /* CSV I/O & validation */
         int load_csv(Node **head, const char *filename);
         int export_csv(Node *head, const char *filename);
 
-        /* Helpers */
-        int validate_date(const char *date); /* YYYY-MM-DD */
+        int validate_date(const char *date); 
         int valid_status(const char *status);
         void print_event(const Event *e);
         void print_list(Node *head);
@@ -47,4 +43,4 @@
         void find_keyword(Node *head, const char *keyword);
         void update_event_fields(Event *ev, int argc, char **argv);
 
-        #endif /* EVENT_H */
+        #endif 
