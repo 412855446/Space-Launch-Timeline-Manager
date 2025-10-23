@@ -6,9 +6,6 @@
         #include <ctype.h>
         #include "event.h"
 
-        /* Basic, minimal implementation meeting project requirements.
-           Simple CSV parsing (no quoted fields), singly linked list, sorted insert by date.
-        */
 
         static void trim_newline(char *s) {
             if (!s) return;
